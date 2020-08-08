@@ -1,3 +1,207 @@
 @charset "UTF-8";
-/* CSS Document */
+/* basewhite #F8F4F4
+	mainblack #1E2633
+	accentpink #D6968D
+	backgroundgray #E8E8ED
+*/
+
+.backgroundgray {
+	background-color: #E8E8ED;
+}
+
+header {
+	background-color: #1E2633;
+	height: 70px;
+}
+
+.header-navwrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-logo {
+	margin: 0;
+	padding: 16px;
+	display: inline-block;
+}
+.header-nav {
+	display: none;/*横並びのメニュを非表示*/
+}
+
+.header-nav a {
+	color: #F8F4F4;
+	text-decoration: none;
+}
+
+/*メニュボタン*/
+.menu-btn {
+	display: inline-block;
+	position: relative;
+    top: 15px;
+    right: 10px;
+}
+
+.menu-btn p {
+	margin: 0;
+	position: relative;
+	bottom: -11px;
+	font-size: 8px;
+	color: #F8F4F4;
+	text-align: center;
+}
+
+.panel-btn{
+  	display: inline-block;
+  	position: relative;
+  	width: 45px;
+}
+
+.panel-btn-icon{
+	background: #F8F4F4;
+  	display: block;
+	height: 3px;
+	left: 50%;
+	margin: -2px 0 0 -12px;
+  	position: absolute;
+	transition: .2s;
+  	top: 47%;
+	width: 24px;
+}
+
+.panel-btn-icon:before, .panel-btn-icon:after{
+	background: #F8F4F4;
+	content: "";
+  	display: block;
+	height: 3px;
+	left: 0;
+  	position: absolute;
+	transition: .3s;
+  	top: 50%;
+	width: 24px;
+}
+
+.panel-btn-icon:before{
+ 	margin-top: -11px;
+}
+
+.panel-btn-icon:after{
+  	margin-top: 7px; 
+}
+
+.panel-btn .close{
+	background: transparent;
+	margin: -4px 0 0 -12px;
+}
+
+.panel-btn .close:before, .panel-btn .close:after{
+  	margin-top: 0;
+}
+
+.panel-btn .close:before{
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+}
+
+.panel-btn .close:after{
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+}
+
+/*メインビジュアル*/
+
+.main-visual {
+	background-color: #D6968D;
+	margin-bottom: 25px;/*main-visual_contentのマイナスマージン相殺*/
+}
+
+.main-visual_content {
+	background-color: #D6968D;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.main-visual_content img {
+	width: 85%;
+	height: auto;
+}
+
+.main-visual_content h1,.main-visual_content h2 {
+	color: #F8F4F4;
+}
+
+.main-visual_content h1 {
+	font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+	font-size: 47px;
+}
+
+.main-visual_content h2 {
+	font-size: 18px;
+	padding-bottom: 60px;
+}
+
+/*新着情報*/
+
+.news {
+	margin: 20px;
+	padding: 28px 20px 20px 20px;
+}
+
+.news-title {
+	font-size: 24px;
+	margin: 20px 0 5px 0;
+}
+
+.news-underline {
+	height: 2px;
+    background: black;
+    display: block;
+}
+
+
+.news img {
+	width: 85%;
+	height: auto;
+	padding-top: 30px;
+}
+
+/*メインコンテンツ*/
+
+.main-content_wrapper {
+	background-color: #ffffff;
+	margin: 0 2%;
+	border-radius: 4%;
+	padding-bottom: 20px;
+}
+
+.main-content_thumbnail_L {
+	margin-bottom: -175px; /*画像内に収めたテキストのポジションズレをマイナスマージンで相殺*/
+	position: relative; /*画像に被せたテキストを画像内におさめるため*/
+}
+
+.main-content_thumbnail_L img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 20px;
+}
+
+.main-content_thumbnail_L h1,.main-content_thumbnail_L p {
+	position: relative;
+	z-index: 2;
+	padding: 10px 15px;
+	display: inline-block;
+}
+
+.main-content_thumbnail_L h1 {
+	bottom: 200px;
+	background: #1E2633;
+	color: #F8F4F4;
+}
+
+.main-content_thumbnail_L p {
+	bottom: 180px;
+	background: #F8F4F4;
+	color: #1E2633;
+}
 

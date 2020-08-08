@@ -24,10 +24,11 @@
 
 <body>
 	<header>
-		<h1><a href="#"><img src="../20200806renewal/images/店舗ロゴ２.png" width="394" height="46" alt="夕張あきんど屋"></a></h1>
-		<div>
+		<div class="header-navwrap">
+		<h1 class="header-logo"><a href="#"><img src="../20200806renewal/images/店舗ロゴ２.png" width="197" height="23" alt="夕張あきんど屋"></a></h1>
+			
 			<nav>
-				<ul>
+				<ul class="header-nav">
 					<li><a href="#">アクセス</a></li>
 					<li><a href="#">オンラインストア</a></li>
 					<li><a href="#">イベント情報</a></li>
@@ -35,21 +36,48 @@
 					<li><a href="#">お問い合わせ</a></li>
 				</ul>
 			</nav>
+			<div class="menu-btn">
+			<a href="#" id="panel-btn" class="panel-btn"><span id="panel-btn-icon" class="panel-btn-icon"></span></a>
+			<p>MENU</p>
+			</div>
 		</div>
 	</header>
-	<h1>夕張を、ほおばろう。</h1>
-	<h2>北海道の美味しさを夕張から全国へお届けします</h2>
-	<img src="../20200806renewal/images/メロンカット切り抜き.png" width="630" height="524" alt="">
+	
+<!--メインビジュアル-->
+	<div class="main-visual">
+		<div class="main-visual_content">
+			<img src="../20200806renewal/images/メロンカット切り抜き.png" alt="">
+			<h1>夕張を、ほおばろう。</h1>
+			<h2>北海道の美味しさを夕張から全国へお届けします</h2>
+		</div>
+	</div>
+	
+<!--メインビジュアル-->
+	
+<!--新着情報-->
+<div class="backgroundgray">
+	
 	<aside class="news">
+		<p class="news-title">お知らせ</p>
+		<span class="news-underline"></span>
+		<p>2020.6.20 オンラインストア開設</p>
+		<p>2020.6.23 メロン販売開始</p>
 		<img src="../20200806renewal/images/あきんどやメロン開始バナー.jpg" alt="令和２年度夕張メロンご購入はこちら">
 	</aside>
+	
+<!--新着情報-->
+	
 <!--コンテンツ１-->
 	<section>
-		<h1>夕張メロン販売実績30年以上</h1>
-		<h2>正真正銘の夕張メロンご購入は当店へ<br>ギフトにも大変好評です</h2>
-		<img src="../20200806renewal/images/メロン２.jpg" alt="">
+		<div class="main-content_wrapper">
+			<div class="main-content_thumbnail_L">
+				<img src="../20200806renewal/images/メロン２.jpg" alt="">
+				<h1>夕張メロン販売実績30年以上</h1>
+				<p>正真正銘の夕張メロンご購入は当店へ<br>ギフトにも大変好評です</p>
+			</div>
 		<p>夕張あきんど屋は創業以来、夕張メロンの販売に力を入れてきました。おかげさまで現在ではリピーター様に愛され、大変好評です。日持ちのしないフルーツですので、朝一番で仕入れて食べ頃一歩手前で販売しています。店頭での販売はもちろん、オンラインストアでもご注文いただけます。</p>
 		<p class="readmore"><a>続きはこちら</a></p>
+		</div>
 	</section>
 <!--コンテンツ１-->
 	
@@ -84,6 +112,8 @@
 		<p>お問い合わせ</p>
 		<img src="#" alt="お問い合わせ">
 	</div>
+	
+</div>
 	
 	<footer>
 		<p>有限会社　夕張あきんど屋</p>
