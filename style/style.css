@@ -234,9 +234,91 @@ header {
 
 .readmore {
 	border: #1E2633 solid 3px;
-	padding: 8px 18px;
 	border-radius: 20px;
 	font-size: 16px;
 	margin:0 40px;
 	float: right;
 }
+
+.readmore a {
+	padding: 8px 18px;
+	border-radius: 15px;
+	z-index: 2;
+	display: block;
+	text-decoration: none;
+	color: #1E2633;
+}
+
+.readmore a:hover {
+	background-color: #1E2633;
+	color: #FFFFFF;
+}
+
+.contact-image {
+	height: 42vw;
+    background-size: cover;
+	position: relative;
+}
+
+.contact-text { 
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	/*↑テキスト中央ぞろえ↑*/
+}
+
+.contact-text a {
+	color: #ffffff;
+    background-color: #1E2633;
+    padding: 10px 25px;
+    border-radius: 23px;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+.contact-text a:hover {
+	color: #D6968D;
+}
+
+footer {
+	background-color: #1E2633;
+	color: #E5E8ED;
+	text-align: center;
+}
+
+.company-name {
+	margin: 0;
+	padding: 15px;
+	font-size: 1.3em;
+}
+
+.company-address {
+	margin: 5px;
+}
+
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 4em 10vw 2em 10vw;
+	padding: 0;
+	font-size: .8em;
+}
+
+.footer-nav a {
+	text-decoration: none;
+	color: #E5E8ED;
+	font-size: 1em;
+	white-space: nowrap;
+}
+
+.footer-nav a:hover {
+	color: #D6968D;
+}
+
+.right {
+	margin: 0;
+	padding-bottom: 15px;
+	font-size: .5em;
+}
+
