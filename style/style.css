@@ -25,7 +25,7 @@ header {
 	display: inline-block;
 }
 .header-nav {
-	display: none;/*横並びのメニュを非表示*/
+	/*display: none;横並びのメニュを非表示*/
 }
 
 .header-nav a {
@@ -39,6 +39,7 @@ header {
 	position: relative;
     top: 15px;
     right: 10px;
+	z-index: 3;/*メニュー展開時の上がさね*/
 }
 
 .menu-btn p {
@@ -242,16 +243,11 @@ header {
 
 .readmore a {
 	padding: 8px 18px;
-	border-radius: 15px;
+	border-radius: 16px;
 	z-index: 2;
 	display: block;
 	text-decoration: none;
 	color: #1E2633;
-}
-
-.readmore a:hover {
-	background-color: #1E2633;
-	color: #FFFFFF;
 }
 
 .contact-image {

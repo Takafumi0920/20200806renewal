@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+.open {
+	position: absolute;
+	background: gray;
+	width: 100vw;
+	z-index: 3;
+}
+
+.close {
+	position: fixed;
+	right: -230px;
+}
+
+.header-nav_close {
+	
+}
+
+.header-nav_open > li {
+	text-align: center;
+}
+
+.panel-btn .close{
+	background: transparent;
+	margin: -4px 0 0 -12px;
+}
+
+.panel-btn .close:before, .panel-btn .close:after{
+  	margin-top: 0;
+}
+
+.panel-btn .close:before{
+  	transform: rotate(-45deg);
+  	-webkit-transform: rotate(-45deg);
+}
+
+.panel-btn .close:after{
+  	transform: rotate(-135deg);
+  	-webkit-transform: rotate(-135deg);
+}
