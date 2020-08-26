@@ -1,24 +1,35 @@
 @charset "UTF-8";
-/* CSS Document */
-.open {
-	position: absolute;
+/*z-index階層
+
+1:
+2:.main-content_thumbnailの文字を画像上に重ねる
+3:レスポンシブメニュー展開時の背景
+4:レスポンシブメニュー展開時のハンバーガーメニュー
+
+
+*↑↑*/
+
+
+/*↓レスポンシブナビ開閉
+position: fixed;
 	background: gray;
-	width: 100vw;
-	z-index: 3;
+display: block;
+*/
+.topnav {
+    display: none;
 }
 
-.close {
+.nav-open {
 	position: fixed;
-	right: -230px;
-}
-
-.header-nav_close {
+	background: #1E2633;
+	display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 	
 }
 
-.header-nav_open > li {
-	text-align: center;
-}
+/*↑↑*/
 
 .panel-btn .close{
 	background: transparent;

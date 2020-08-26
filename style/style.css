@@ -5,6 +5,10 @@
 	backgroundgray #E8E8ED
 */
 
+.overlay {
+	background-color: gray;
+}
+
 .backgroundgray {
 	background-color: #E8E8ED;
 }
@@ -24,14 +28,9 @@ header {
 	padding: 16px;
 	display: inline-block;
 }
-.header-nav {
-	/*display: none;横並びのメニュを非表示*/
-}
 
-.header-nav a {
-	color: #F8F4F4;
-	text-decoration: none;
-}
+
+
 
 /*メニュボタン*/
 .menu-btn {
@@ -39,7 +38,12 @@ header {
 	position: relative;
     top: 15px;
     right: 10px;
-	z-index: 3;/*メニュー展開時の上がさね*/
+	height: 45px;
+	z-index: 4;/*メニュー展開時の上がさね*/
+}
+
+.menu-btn img {
+	width: 33px;
 }
 
 .menu-btn p {
@@ -89,23 +93,39 @@ header {
   	margin-top: 7px; 
 }
 
-.panel-btn .close{
+.panel-btn .switch{
 	background: transparent;
 	margin: -4px 0 0 -12px;
 }
 
-.panel-btn .close:before, .panel-btn .close:after{
+.panel-btn .switch:before, .panel-btn .switch:after{
   	margin-top: 0;
 }
 
-.panel-btn .close:before{
+.panel-btn .switch:before{
   	transform: rotate(-45deg);
   	-webkit-transform: rotate(-45deg);
 }
 
-.panel-btn .close:after{
+.panel-btn .switch:after{
   	transform: rotate(-135deg);
   	-webkit-transform: rotate(-135deg);
+}
+
+/*メニュボタンオープン時*/
+.header-nav {
+	margin-top: 70px;
+}
+
+.header-nav a {
+	color: #D6968D;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.header-nav > li {
+	text-align: center;
+	margin: 3em;
 }
 
 /*メインビジュアル*/
