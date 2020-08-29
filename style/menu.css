@@ -16,10 +16,16 @@ position: fixed;
 display: block;
 */
 .topnav {
-    display: none;
+    position: fixed;
+	background: #1E2633;
+	display: block;
+	width: 63vw;
+	height: 100%;
+	z-index: 3;
+	right: -63vw;
 }
 
-.nav-open {
+/*.nav-open {
 	position: fixed;
 	background: #1E2633;
 	display: block;
@@ -27,7 +33,7 @@ display: block;
     height: 100%;
     z-index: 3;
 	
-}
+}*/
 
 /*↑↑*/
 

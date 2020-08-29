@@ -21,6 +21,7 @@ header {
 .header-navwrap {
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .header-logo {
@@ -114,18 +115,19 @@ header {
 
 /*メニュボタンオープン時*/
 .header-nav {
-	margin-top: 70px;
+	margin-top: 90px;
+	padding: 0px;
 }
 
 .header-nav a {
 	color: #D6968D;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 6vw;
 }
 
 .header-nav > li {
 	text-align: center;
-	margin: 3em;
+	margin: 8vw 0px;
 }
 
 /*メインビジュアル*/

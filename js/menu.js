@@ -1,7 +1,7 @@
 // ↓ハンバーガーメニューバツ切り替え
 $(function(){
+	var duration = 300;
 	
-	var duration = 400;
 	var $js__open = $('#js__open');
 	
 	var $menubtn = $('#menu-btn')
@@ -20,23 +20,21 @@ $(function(){
 		.attr('src', 'images/menu.svg');
 	};
 //↑↑
-	
 	if($js__open.hasClass('nav-open')){
 		$js__open.stop(true).animate({
-			position: 'fixed',
-			background: 'gray',
-			display: 'block'
+			right: '0px'
 		},duration);
 	}else{
 		$js__open.stop(true).animate({
-			display: 'none'
+			right: '-63vw'
 		},duration);
 	};
-});
+	});
 });
 //↑↑
 
-//
+//↓↓ナビ開閉
+
 
 
 
