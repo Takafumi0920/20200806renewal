@@ -30,18 +30,8 @@ $(function(){
 		},duration);
 	};
 	});
-});
-//↑↑
-
-//↓↓ナビ開閉
-
-
-
-
-//↓続きボタン
-$(function(){
-	var duration = 300;
 	
+//↓続きボタン
 	$('.main-content_wrapper').find('.readmore > a')
 	.on('mouseover',function(){
 		$(this).stop(true).animate({
@@ -55,4 +45,31 @@ $(function(){
 			color: '#1E2633'
 		},duration);
 	});
+	
+//↓↓sticky-header
+	$('.header-navwrap').each(function(){
+		
+		var $window = $(window),
+			$header = $(this),
+			//ヘッダーデフォルト位置を取得
+			headerOffsetTop = $header.offset().top;
+		
+		$window.on('scroll',function(){
+			
+			if($window.scrollTop() > headerOffsetTop) {
+				$header.addClass('sticky');
+			} else {
+				$header.removeClass('sticky');
+			}
+		});
+		
+		$window.trigger('scroll');
+	});
 });
+//↑↑
+
+
+
+
+
+

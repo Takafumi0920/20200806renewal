@@ -19,9 +19,16 @@ header {
 }
 
 .header-navwrap {
-	display: flex;
-	justify-content: space-between;
-	
+	background-color: #1E2633;
+	position: absolute;
+	width: 100%;
+}
+
+/*sticky-header*/
+.header-navwrap.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 4;
 }
 
 .header-logo {
@@ -36,9 +43,9 @@ header {
 /*メニュボタン*/
 .menu-btn {
 	display: inline-block;
-	position: relative;
+	position: absolute;
     top: 15px;
-    right: 10px;
+    right: 5px;
 	height: 45px;
 	z-index: 4;/*メニュー展開時の上がさね*/
 }
