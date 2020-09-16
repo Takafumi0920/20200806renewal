@@ -5,8 +5,8 @@
 	backgroundgray #E8E8ED
 */
 
-.overlay {
-	background-color: gray;
+p {
+	font-family: "Toppan Bunkyu Gothic Pr6N";
 }
 
 .backgroundgray {
@@ -120,6 +120,8 @@ header {
   	-webkit-transform: rotate(-135deg);
 }
 
+
+
 /*メニュボタンオープン時*/
 .header-nav {
 	margin-top: 90px;
@@ -214,7 +216,7 @@ header {
 	height: 57.2vw;
 	background-size: cover;
 	position: relative;
-	top: 20px;
+	top: 25px;
 }
 /*↑↑*/
 
@@ -347,3 +349,128 @@ footer {
 	font-size: .5em;
 }
 
+/*↓各コンテンツ*/
+.content-wrap {
+	position: relative;
+}
+
+.content-wrap h1 {
+	color: azure;
+	font-size: 26px;
+}
+
+.image-background {
+	background-image: url("../images/contenttop1.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25vw;
+	background-size: cover;
+}
+
+.content-text {
+	margin: 30px 11vw;
+	font-size: 1em;
+	letter-spacing: .1em;
+	font-family: "Toppan Bunkyu Gothic Pr6N";
+	line-height: 1.4em;
+}
+/*↑↑*/
+
+/*width for tablet*/
+@media screen and (min-width: 481px) {
+	
+	.main-content_wrapper {
+		margin: 5vw 8%;
+	}
+	
+	.news {
+		margin: 20px 8%;
+		padding: 20px 0;
+	}
+/*↓各コンテンツページ*/
+	.content-wrap h1 {
+	
+	font-size: 32px;
+}
+}
+
+/*width for pc*/
+@media screen and (min-width: 1025px) {
+	
+	.main-visual_content img {
+		width: 34vw;
+	}
+	
+	.main-visual_content h1 {
+		margin: 2px;
+		font-size: 4.7vw;
+		font-family: "Heisei Maru Gothic Std";
+		letter-spacing: 4px;
+	}
+	
+	.main-visual_content h2 {
+		padding-bottom: 40px;
+		font-family: "Toppan Bunkyu Gothic Pr6N";
+	}
+	
+	.news {
+		margin: 20px 25vw;
+	}
+	
+	.pcwidth {
+		display: flex;
+		padding: 25px 12.2vw;
+	}
+	
+	.main-content_wrapper {
+		margin: 20px;
+		flex: 2;
+		border-radius: 21px;
+		padding-bottom: 3vw;
+	}
+	
+	.content-image1, .content-image2, .content-image3, .content-image4 {
+		width: 90%;
+		height: 18vw;
+		margin-left: 20px;
+		
+	}
+	
+	.main-content_thumbnail_L h1, .main-content_thumbnail_R h1 {
+		font-size: 1.5vw;
+		bottom: -4.4em;
+		white-space: nowrap;
+		padding: 10px;
+	}
+	
+	.main-content_thumbnail_L p, .main-content_thumbnail_R p {
+		font-size: 1.1vw;
+		bottom: -5.2em;
+	}
+	
+	.main-content_text {
+		font-size: 1vw;
+		height: 9vw;
+	}
+	
+	.readmore a {
+		font-size: 1vw;
+	}
+	
+	.contact-image {
+		margin: 20px 13.3vw;
+		height: 280px;
+		background-size: cover;
+	}
+	
+/*↓各コンテンツページ*/
+	.content-wrap h1 {
+	color: azure;
+	font-size: 42px;
+	}
+	
+	.image-background {
+		height: 18vw;
+	}
+}
