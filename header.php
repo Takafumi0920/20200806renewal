@@ -80,7 +80,7 @@
 </head>
 
 <body>
-<div id="menuclose-wrap">
+
 	<header role="banner">
 		<div class="header-navwrap">
 		<h1 class="header-logo"><a href="#"><img src="../20200806renewal/images/店舗ロゴ２.png" width="197" height="23" alt="夕張あきんど屋"></a></h1>
@@ -100,55 +100,3 @@
 			</div>
 		</div>
 	</header>
-	
-
-	
-<!--メインビジュアル-->
-	
-<!--新着情報-->
-	<div class="content-wrap">
-
-		<div class="image-background3">
-			<h1>北海道にこだわり続ける</h1>
-		</div>
-		<div class="homelink"><p><a href="index.html"><span><img alt="" src="./images/home.svg"></span>Home</a></p></div>
-		<div class="content-text">
-		<p>市場に出回らなくとも、美味しい野菜・果物はたくさんあります。当店では北海道産にこだわり、生産者から直接買い付けることもあります。<br>
-		わざわざ畑まで出向くのは正直大変です。でも、ただ市場で仕入れるだけでは普通の八百屋と変わらないし、面白みもないじゃないですか。北海道で創業したんだから、北海道の魅力を一品でも多く全国の皆様にご提案できなければ情けない。
-		働く現場の人の声や、汗水たらして生産者が畑で築いたストーリーまですべて食卓に届けたい。そう思ったのです。<br>
-
-		夕張あきんど屋は北海道の味覚を全国へ広めるべく、道内を駆け回って取り扱い商品の拡大を進めて参ります。準備が整った商品からオンラインストアで販売していますので、是非チェックしてみてください！
-
-		<figure><img alt="" src="./images/content3-1.jpg"></figure>
-		</p>
-		</div>
-		<div class="onlinestorelink">
-			<img src="./images/storelink.jpg" alt="">
-			<p>今日も元気に営業中！</p>
-
-			<div class="storelink-btn">
-				<p><a href="#">夕張あきんど屋online store<span><img alt="" src="./images/openlink.svg"></span></a></p>
-			</div>
-		</div>
-		<p>パートナー生産者　城地農園様</p>
-	</div>
-	
-	
-	<footer>
-		<h1 class="company-name">有限会社　夕張あきんど屋</h1>
-		<p class="company-address">〒068-0531</p>
-		<p class="company-address">北海道夕張市清水沢３丁目１３１番地</p>
-		<nav>
-			<ul class="footer-nav">
-				<li><a href="#">アクセス</a></li>
-				<li><a href="">オンラインストア</a></li>
-				<li><a href="">プライバシーポリシー</a></li>
-				<li><a href="">お問い合わせ</a></li>
-			</ul>
-		</nav>
-		<p class="right">yubariakindoya.,Inc 2020. All Right Reserved.</p>
-		
-	</footer>
-</div>
-</body>
-</html>

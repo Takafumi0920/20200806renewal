@@ -1,5 +1,7 @@
 @charset "UTF-8";
-/*z-index階層
+/*jqueryでクラス操作しているもの
+
+z-index階層
 
 1:
 2:.main-content_thumbnailの文字を画像上に重ねる
